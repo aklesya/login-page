@@ -66,30 +66,24 @@ h2{
 }
 
 .signin-button {
-    width: 50%;
-    padding: 20px; 
-    padding: 10px 32px;
-    text-align: center;
-    display: inline-block;
-    background-color: rgb(96, 171, 139); 
-    color: white;
-    border: 2px solid;
-    border-radius: 30px; 
-    cursor: pointer; 
-    font-size:x-small;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 70%; /* Button takes half the width */
+    padding: 10px 32px; /* Padding for button */
+    text-align: center; /* Center text */
+    display: inline-block; /* Allow for inline display */
+    background-color: rgb(96, 171, 139); /* Button color */
+    color: white; /* Text color */
+    border: 1px solid white; /* Border color */
+    border-radius: 30px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: x-small; /* Font size */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition for hover effects */
+    margin-top: 10px; /* Space above the button */
 }
-/*background-color: transparent; 
-    border: 2px solid rgb(169, 171, 139);
-    font-family: "Times New Roman", Times, serif;
-    font-size: 16px;
-    padding: 10px 32px;
-    text-align: center;
-    border-radius: 75px;
-    display: inline-block;
-    color: rgb(169, 171, 139); 
-    transition: background-color 0.3s ease, color 0.3s ease;*/
 
+.signin-button:hover, .signup-button:hover {
+    background-color: darkgray; /* Change button color on hover */
+    color: white; /* Maintain text color on hover */
+}
 .social-icons {
     display: flex;
     justify-content: center; 
@@ -118,43 +112,45 @@ h2{
 }
 
 .form-container {
-    max-width: 400px; /* Set a max width for the form */
-    margin: 0 auto; /* Center the form */
+    max-width: 400px; 
+    margin: 0 auto ; 
     margin-left:10px;
     padding: 20px;
-    border: 1px solid #ccc; /* Optional: Add a border */
-    border-radius: 10px; /* Optional: Rounded corners */
-    background-color: white; /* Background color */
-    justify-items: center;
+    background-color: white; 
+    
 }
 
 .input-group {
-    margin-bottom: 15px; /* Space between input groups */
-    margin-right:20px;
+    margin-top:20px;
+    margin-left:40px;
+    margin-bottom: 20px; 
 }
 
 label {
-    display: block; /* Make labels block elements */
-    margin-bottom: 5px; /* Space between label and input */
+    display: block; 
+    margin-bottom: 5px;
 }
 
 input {
-    width: 100%; /* Full width input */
-    padding: 10px; /* Padding for input */
-    border: 1px solid #ccc; /* Border for input */
-    border-radius: 5px; /* Rounded corners for input */
+    width: 120%; 
+    padding: 10px; 
+    border:1px solid #ccc;
+    border-radius: 20px; 
 }
 
 .signup-button {
-    width: 50%; /* Full width button */
+    width: 70%; /* Button takes half the width */
     padding: 10px; /* Padding for button */
     background-color: rgb(96, 171, 139); /* Button color */
     color: white; /* Text color */
     border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 30px; /* Rounded corners */
     cursor: pointer; /* Pointer cursor on hover */
+    font-size: small; /* Font size */
+    transition: background-color 0.3s ease; /* Transition for hover effects */
+    margin-top: 10px; /* Space above the button */
 }
-
 .submit-button:hover {
     background-color: rgb(169, 169, 169); /* Darker color on hover */
 }
+
