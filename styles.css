@@ -2,6 +2,7 @@
 body{
     margin-left:10px;
     background-color: rgb(239, 233, 233);
+    
 }
 .container {
     display: flex;
@@ -10,7 +11,7 @@ body{
 }
 
 .left{
-    background-color: rgb(96, 171, 139);
+    background-color: rgb(34, 89, 64);
     width: 215px;
     height:350px;
     padding-top:150px;
@@ -49,13 +50,13 @@ h1{
 h2{
     padding-left:70px;
     font-size:30px;
+    color:rgb(34, 89, 64);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .par{
-    padding-left:0px;
-    padding-right:30px;
     font-size:small;
+    margin-left: 30px;
 }
 
 .con{
@@ -66,23 +67,22 @@ h2{
 }
 
 .signin-button {
-    width: 70%; /* Button takes half the width */
-    padding: 10px 32px; /* Padding for button */
-    text-align: center; /* Center text */
-    display: inline-block; /* Allow for inline display */
-    background-color: rgb(96, 171, 139); /* Button color */
-    color: white; /* Text color */
-    border: 1px solid white; /* Border color */
-    border-radius: 30px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-size: x-small; /* Font size */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Transition for hover effects */
-    margin-top: 10px; /* Space above the button */
+    width: 80%;
+    padding: 15px; 
+    background-color: transparent; 
+    color: white; 
+    border: 1px solid white;
+    border-radius: 30px; 
+    cursor: pointer; 
+    font-size: x-small; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 30px; 
+    margin-left: 30px;
 }
 
 .signin-button:hover, .signup-button:hover {
-    background-color: darkgray; /* Change button color on hover */
-    color: white; /* Maintain text color on hover */
+    background-color: darkgray; 
+    color: white; 
 }
 .social-icons {
     display: flex;
@@ -134,23 +134,26 @@ label {
 input {
     width: 120%; 
     padding: 10px; 
-    border:1px solid #ccc;
-    border-radius: 20px; 
+    border: none;
+    background-color: aliceblue;
+    border-radius: 2px; 
+
 }
 
 .signup-button {
-    width: 70%; /* Button takes half the width */
-    padding: 10px; /* Padding for button */
-    background-color: rgb(96, 171, 139); /* Button color */
-    color: white; /* Text color */
-    border: none; /* No border */
-    border-radius: 30px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-size: small; /* Font size */
-    transition: background-color 0.3s ease; /* Transition for hover effects */
-    margin-top: 10px; /* Space above the button */
+    width: 70%; 
+    padding: 15px;
+    background-color: rgb(34, 89, 64);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer; 
+    font-size: small;
+    transition: background-color 0.3s ease; 
+    margin-top: 10px;
+    margin-left:80px;
 }
 .submit-button:hover {
-    background-color: rgb(169, 169, 169); /* Darker color on hover */
+    background-color: rgb(169, 169, 169); 
 }
 
