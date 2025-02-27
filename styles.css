@@ -105,12 +105,10 @@ h2{
     margin-bottom:10px;
     transition: background-color 0.3s, color 0.3s;
 }
-
 .icon:hover {
     background-color: rgb(169, 171, 139);
     color: white; 
 }
-
 .form-container {
     max-width: 400px; 
     margin: 0 auto ; 
